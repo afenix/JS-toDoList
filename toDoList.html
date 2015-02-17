@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Listzomania!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To Do List!</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="tasks">
+          <div class="form-group">
+            <label for="task-name">Enter a task:</label>
+            <input type="text" class="form-control" id="task-name">
+          </div>
+
+        </div>
+      </div>
+      <button type="submit" class="btn"> Add</button>
+    </form>
+
+    <h2>Things to Do:</h2>
+    <ul id ="task-list">
+    </ul>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div id= "show-tasks">
+          <h2>Task List:</h2>
+          <form>
+          <div id="checkbox-form">
+            <input type="checkbox" name="checkbox" id="checkbox" type="submit">
+            <label for="checkbox_id"><span class="task-name"></span></label>
+          </div>
+        </form>
+
+
+        </div>
+        <h2>Completed Tasks:</h2>
+        <ul id ="completed-tasks">
+        </ul>
+        
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
